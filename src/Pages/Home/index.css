@@ -1,0 +1,196 @@
+/* Reseta os estilos padrão dos elementos */
+* {
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo do tamanho total */
+  }
+  
+  /* Estilização do corpo da página */
+  body {
+    background-color: #ECF0F1; /* Define um fundo cinza claro */
+    color: #7F8C8D; /* Define a cor do texto como cinza escuro */
+    font-family: Arial, sans-serif; /* Usa a fonte Arial ou sans-serif como fallback */
+    display: flex; /* Usa flexbox para centralizar o conteúdo */
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    font-size: 20px; /* Define o tamanho da fonte base */
+  }
+  
+  /* Estilização dos títulos h1 */
+  h1 {
+    font-size: 22px; /* Define o tamanho da fonte dos títulos */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  /* Estilização do container principal */
+  .container {
+    background-color: #FFFFFF; /* Fundo branco para o formulário */
+    padding: 50px; /* Adiciona espaçamento interno */
+    border-radius: 8px; /* Arredonda os cantos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    display: flex; /* Usa flexbox para organizar os elementos */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    height: 90%; /* Define a altura como 90% da tela */
+    width: 500px; /* Define a largura fixa do container */
+  }
+  
+  /* Estilização da seção de cadastro */
+  .div-cadastros {
+    width: 450px; /* Define a largura da seção */
+    display: flex; /* Usa flexbox para organizar os elementos */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    border-bottom: 1px solid #2C3E50; /* Adiciona uma borda inferior azul escura */
+    padding-bottom: 20px; /* Adiciona espaçamento interno inferior */
+  }
+  
+  /* Estilização específica do título de cadastro */
+  .cad__titulo {
+    padding-bottom: 10px; /* Adiciona espaçamento inferior ao título */
+  }
+  
+  /* Estilização da seção de filtro */
+  .div-filtro {
+    width: 450px; /* Define a largura da seção */
+    padding-top: 20px; /* Adiciona espaçamento superior */
+    display: flex; /* Usa flexbox para organizar os elementos */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    border-bottom: 1px solid #2C3E50; /* Adiciona uma borda inferior azul escura */
+    padding-bottom: 20px; /* Adiciona espaçamento interno inferior */
+  }
+  
+  /* Estilização da seção de resultados */
+  .div-resultado {
+    padding-top: 20px; /* Adiciona espaçamento superior */
+    width: 450px; /* Define a largura da seção */
+    display: flex; /* Usa flexbox para organizar os elementos */
+    flex-direction: row; /* Organiza os elementos em linha (horizontalmente) */
+  }
+  
+  /* Estilização da lista dentro da seção de resultados */
+  .div-resultado ul {
+    width: 450px; /* Define a largura da lista */
+    display: flex; /* Usa flexbox para organizar os itens */
+    flex-direction: column; /* Organiza os itens em coluna */
+    /* align-items: center; */ /* Comentado: centralizaria os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+  }
+  
+  /* Estilização de cada item da lista */
+  .div-resultado li {
+    display: flex; /* Usa flexbox para organizar os elementos do item */
+    align-items: center; /* Alinha os elementos verticalmente ao centro */
+    flex-direction: row; /* Organiza os elementos em linha (horizontalmente) */
+    padding-top: 20px; /* Adiciona espaçamento superior */
+    padding-bottom: 20px; /* Adiciona espaçamento inferior */
+    border-bottom: 1px solid #2C3E50; /* Adiciona uma borda inferior azul escura */
+  }
+  
+  /* Estilização padrão dos botões */
+  button {
+    background-color: #2C3E50; /* Define a cor de fundo como azul escuro */
+    color: #FFFFFF; /* Define a cor do texto como branco */
+    border: none; /* Remove a borda padrão */
+    padding: 8px 16px; /* Adiciona espaçamento interno */
+    border-radius: 4px; /* Arredonda os cantos */
+    cursor: pointer; /* Muda o cursor para indicar clique */
+    margin: 5px; /* Adiciona margem externa */
+  }
+  
+  /* Estilização específica do botão de cadastrar */
+  .btn__cadastrar {
+    height: 50px; /* Define a altura do botão */
+    font-size: 20px; /* Define o tamanho da fonte */
+  }
+  
+  /* Estilização da seção de botões de PDF */
+  .btn__pdf {
+    width: 450px; /* Define a largura da seção */
+    display: flex; /* Usa flexbox para organizar os botões */
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    padding-top: 20px; /* Adiciona espaçamento superior */
+    border-bottom: 1px solid #2C3E50; /* Adiciona uma borda inferior azul escura */
+    padding-bottom: 20px; /* Adiciona espaçamento inferior */
+  }
+  
+  /* Efeito hover para os botões */
+  button:hover {
+    background-color: #34495E; /* Muda a cor de fundo para um azul mais claro */
+  }
+  
+  /* Estilização do botão de adicionar (FaPlus) */
+  .button-adicionar {
+    background-color: #27AE60; /* Define a cor de fundo como verde suave */
+  }
+  
+  /* Efeito hover para o botão de adicionar */
+  .button-adicionar:hover {
+    background-color: #2ECC71; /* Muda a cor de fundo para um verde mais claro */
+  }
+  
+  /* Estilização do botão de remover (FaTrash) */
+  .button-remover {
+    background-color: #E74C3C; /* Define a cor de fundo como vermelho suave */
+  }
+  
+  /* Efeito hover para o botão de remover */
+  .button-remover:hover {
+    background-color: #C0392B; /* Muda a cor de fundo para um vermelho mais escuro */
+  }
+  
+  /* Estilização dos campos de entrada de texto no container */
+  .container input[type="text"] {
+    width: 100%; /* Define a largura como 100% do container */
+    max-width: 450px; /* Limita a largura máxima */
+    margin: 10px 0; /* Adiciona margem vertical */
+    border: 1px solid #7F8C8D; /* Define uma borda cinza */
+    background-color: #ECF0F1; /* Define o fundo como cinza claro */
+    color: #7F8C8D; /* Define a cor do texto como cinza escuro */
+    padding: 8px; /* Adiciona espaçamento interno */
+    border-radius: 4px; /* Arredonda os cantos */
+    font-size: 18px; /* Define o tamanho da fonte */
+  }
+  
+  /* Estilização dos campos de texto quando em foco */
+  .container input[type="text"]:focus {
+    border-color: #27AE60; /* Muda a cor da borda para verde */
+    border-width: 3px; /* Aumenta a espessura da borda */
+    outline: none; /* Remove o contorno padrão do foco */
+  }
+  
+  /* Estilização da camada de fundo do modal */
+  .modal-overlay {
+    position: fixed; /* Fixa o modal na tela */
+    top: 0; /* Alinha ao topo */
+    left: 0; /* Alinha à esquerda */
+    width: 100%; /* Ocupa toda a largura */
+    height: 100%; /* Ocupa toda a altura */
+    background: rgba(0, 0, 0, 0.5); /* Fundo preto com 50% de opacidade */
+    display: flex; /* Usa flexbox para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+  }
+  
+  /* Estilização do conteúdo do modal */
+  .modal-content {
+    background: white; /* Define o fundo como branco */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border-radius: 8px; /* Arredonda os cantos */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    width: 450px; /* Define a largura do modal */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  /* Estilização dos campos de entrada dentro do modal */
+  .modal-content input {
+    width: 95%; /* Define a largura como 95% do modal */
+    margin: 10px 0; /* Adiciona margem vertical */
+    padding: 8px; /* Adiciona espaçamento interno */
+  }
+  
+  /* Estilização dos botões dentro do modal */
+  .modal-content button {
+    margin: 5px; /* Adiciona margem externa */
+    padding: 8px 12px; /* Adiciona espaçamento interno */
+    cursor: pointer; /* Muda o cursor para indicar clique */
+  }
