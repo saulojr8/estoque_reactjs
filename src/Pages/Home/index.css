@@ -32,12 +32,12 @@
     flex-direction: column; /* Organiza os elementos em coluna */
     align-items: center; /* Centraliza os itens horizontalmente */
     height: 90%; /* Define a altura como 90% da tela */
-    width: 500px; /* Define a largura fixa do container */
+    width: 450px; /* Define a largura fixa do container */
   }
   
   /* Estilização da seção de cadastro */
   .div-cadastros {
-    width: 450px; /* Define a largura da seção */
+    width: 400px; /* Define a largura da seção */
     display: flex; /* Usa flexbox para organizar os elementos */
     flex-direction: column; /* Organiza os elementos em coluna */
     border-bottom: 1px solid #2C3E50; /* Adiciona uma borda inferior azul escura */
@@ -51,7 +51,7 @@
   
   /* Estilização da seção de filtro */
   .div-filtro {
-    width: 450px; /* Define a largura da seção */
+    width: 400px; /* Define a largura da seção */
     padding-top: 20px; /* Adiciona espaçamento superior */
     display: flex; /* Usa flexbox para organizar os elementos */
     flex-direction: column; /* Organiza os elementos em coluna */
@@ -62,14 +62,14 @@
   /* Estilização da seção de resultados */
   .div-resultado {
     padding-top: 20px; /* Adiciona espaçamento superior */
-    width: 450px; /* Define a largura da seção */
+    width: 400px; /* Define a largura da seção */
     display: flex; /* Usa flexbox para organizar os elementos */
     flex-direction: row; /* Organiza os elementos em linha (horizontalmente) */
   }
   
   /* Estilização da lista dentro da seção de resultados */
   .div-resultado ul {
-    width: 450px; /* Define a largura da lista */
+    width: 400px; /* Define a largura da lista */
     display: flex; /* Usa flexbox para organizar os itens */
     flex-direction: column; /* Organiza os itens em coluna */
     /* align-items: center; */ /* Comentado: centralizaria os itens horizontalmente */
@@ -105,7 +105,7 @@
   
   /* Estilização da seção de botões de PDF */
   .btn__pdf {
-    width: 450px; /* Define a largura da seção */
+    width: 400px; /* Define a largura da seção */
     display: flex; /* Usa flexbox para organizar os botões */
     justify-content: center; /* Centraliza os botões horizontalmente */
     padding-top: 20px; /* Adiciona espaçamento superior */
@@ -177,7 +177,7 @@
     padding: 20px; /* Adiciona espaçamento interno */
     border-radius: 8px; /* Arredonda os cantos */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
-    width: 450px; /* Define a largura do modal */
+    width: 400px; /* Define a largura do modal */
     text-align: center; /* Centraliza o texto */
   }
   
