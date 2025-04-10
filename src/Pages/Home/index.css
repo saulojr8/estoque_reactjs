@@ -84,6 +84,7 @@
     padding-top: 20px; /* Adiciona espaçamento superior */
     padding-bottom: 20px; /* Adiciona espaçamento inferior */
     border-bottom: 1px solid #2C3E50; /* Adiciona uma borda inferior azul escura */
+    font-size: 16px;
   }
   
   /* Estilização padrão dos botões */
