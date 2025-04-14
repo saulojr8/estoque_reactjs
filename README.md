@@ -1,75 +1,57 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Sistema de Gerenciamento de Estoque
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Sistema web para gerenciamento de estoque, construído com React.js e integrado ao Firebase Firestore para sincronização em tempo real. Oferece cadastro, edição, exclusão e ajuste de produtos, com interface moderna, relatórios em PDF e notificações via React Toastify.
 
-## Available Scripts
+## 🔗 Link para Demonstração
 
-In the project directory, you can run:
+### 👉 https://estoque-reactjs.vercel.app
 
-### `npm start`
+## 📸 Capturas de Tela
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tela inicial (cadastro e listagem):
+![Tela Inicial](src\screenshots\tela_principal.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Modal de ajuste de estoque:
+![Modal](src\screenshots\modal.png)
 
-### `npm test`
+### Notificação Toastify:
+![Toastify](src\screenshots\toastify.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📋 Descrição
+### Esta aplicação web facilita o controle de estoques, permitindo gerenciar produtos com eficiência. Os dados são armazenados no Firebase Firestore, garantindo atualizações instantâneas. A interface inclui filtragem em tempo real, geração de relatórios em PDF com compartilhamento via Web Share API, e notificações interativas com React Toastify para feedback visual moderno.
 
-### `npm run build`
+## ✨ Funcionalidades
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Cadastro de Produtos: Adicione nome e quantidade inicial.
+### Gestão de Estoque: Ajuste quantidades (entradas/saídas), edite ou exclua produtos.
+### Filtro em Tempo Real: Busca instantânea por nome do produto.
+### Relatórios em PDF: Geração de resumos com download e compartilhamento.
+### Notificações Modernas: Feedback visual com React Toastify (sucesso, erro, aviso).
+### Interface Intuitiva: Modal para ajustes e edição, com design responsivo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Tecnologias Utilizadas
+### Frontend: React.js, CSS3 (Flexbox para layout responsivo).
+### Banco de Dados: Firebase Firestore (sincronização em tempo real).
+## Bibliotecas:
+### jsPDF: Geração de relatórios em PDF.
+### react-toastify: Notificações estilizadas.
+### react-icons: Ícones visuais.
+### Outros: Web Share API para compartilhamento.
+### Hospedagem: Vercel.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎮 Uso
+### Cadastrar: Insira nome e quantidade do produto e clique em "Cadastrar".
+### Gerenciar: Use os botões + (entrada), - (saída), ✏️ (editar) ou 🗑️ (excluir).
+### Filtrar: Digite no campo de busca para localizar produtos.
+### Relatórios: Gere PDFs com "Baixar PDF" ou "Compartilhar PDF".
+### Notificações: Mensagens de sucesso, erro ou aviso aparecem via Toastify.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📬 Contato
+### Desenvolvido por Saulo Pacheco.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# estoque_reactjs
-Projeto de criação própria para gerenciar estoque, foi usado React JS
->>>>>>> 413c9a1b05d5745bd07a2cb90463d2f2565d08c3
+### Portfólio: portifolio-eosin-alpha-88.vercel.app
+### GitHub: saulojr8
+### LinkedIn: saulojr8
+### E-mail: saulojr8@gmail.com
+### WhatsApp: +55 32 99812-4443
