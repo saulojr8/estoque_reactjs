@@ -9,7 +9,8 @@
 ## 📸 Capturas de Tela
 
 ### Tela inicial (cadastro e listagem):
-![Tela Inicial](src\screenshots\tela_principal.png)
+
+![Tela Inicial](https://github.com/saulojr8/estoque_reactjs/blob/main/src/screenshots/tela_principal.png)
 
 ### Modal de ajuste de estoque:
 ![Modal](src\screenshots\modal.png)
