@@ -13,10 +13,10 @@
 ![Tela Inicial](https://github.com/saulojr8/estoque_reactjs/blob/main/src/screenshots/tela_principal.png)
 
 ### Modal de ajuste de estoque:
-![Modal](src\screenshots\modal.png)
+![Modal](https://github.com/saulojr8/estoque_reactjs/blob/main/src/screenshots/modal.png)
 
 ### Notificação Toastify:
-![Toastify](src\screenshots\toastify.png)
+![Toastify](https://github.com/saulojr8/estoque_reactjs/blob/main/src/screenshots/toastify.png)
 
 ## 📋 Descrição
 ### Esta aplicação web facilita o controle de estoques, permitindo gerenciar produtos com eficiência. Os dados são armazenados no Firebase Firestore, garantindo atualizações instantâneas. A interface inclui filtragem em tempo real, geração de relatórios em PDF com compartilhamento via Web Share API, e notificações interativas com React Toastify para feedback visual moderno.
